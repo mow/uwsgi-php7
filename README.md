@@ -1,0 +1,1 @@
+php7 build fix, don't forget to add "default php" as plugin name while building, otherwise an "undefined symbol" error raises (UWSGICONFIG_PHPDIR=/opt/php7 python uwsgiconfig.py --plugin plugins/phpng default php)
